@@ -378,24 +378,26 @@
 	          	<span class="subheading">What Would You Like To Wear</span>
 	            <h2 class="mb-4">Make an Order</h2>
 	          </div>
-            <form action="#">
+            <form
+              name="product" method="POST" data-netlify="true" onSubmit="submit"
+            >
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group">
                     <label for="">Name</label>
-                    <input type="text" class="form-control" placeholder="Your Name">
+                    <input type="text" class="form-control" placeholder="Your Name" id="name">
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
                     <label for="">Email</label>
-                    <input type="text" class="form-control" placeholder="Your Email">
+                    <input type="email" class="form-control" placeholder="Your Email" id="email">
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
                     <label for="">Phone</label>
-                    <input type="text" class="form-control" placeholder="Phone">
+                    <input type="text" class="form-control" placeholder="Phone" id="phone">
                   </div>
                 </div>
                 <div class="col-md-6">
